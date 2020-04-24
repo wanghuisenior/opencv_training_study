@@ -1,0 +1,2 @@
+# opencv_training_study
+在windows环境训练自己的opencv分类器文件，并进行测试
