@@ -1,0 +1,14 @@
+mergevec.exe
+  <collection_file_of_vecs>
+  <output_vec_filename>
+  [-show] [-w <sample_width = 24>] [-h <sample_height = 24>]
+
+首先用个文件（例如：samplescollection.dat）存储你要合并的.vec文件路径
+
+创建一个目标.vec文件（例如：samplescollection.vec）就是.vec文件所有合并的结果。
+
+-w  -h  和之前创建正样本的大小应该一致。
+
+然后创建一个shell脚本敲入下面命令
+
+mergevec samplescollection.dat samplescollection.vec -show -w 24 -h 24
