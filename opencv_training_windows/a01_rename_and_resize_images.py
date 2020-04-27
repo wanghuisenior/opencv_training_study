@@ -57,6 +57,8 @@ def resize_img(path):
 		# 像素修改后存入images文件
 		convertjpg(jpgfile, resize_path)
 		i += 1
+	if i==0:
+		print('没有图片被改变尺寸，请确认a01_rename_and_resize_images.py文件中参数：image_tpye是否正确')
 	print('改变尺寸%d张图' % i)
 
 
